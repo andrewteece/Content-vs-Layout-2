@@ -108,12 +108,44 @@ section {
   color: var(--fg), var(--clr-neutral-100);
 }
 
+.btn:hover,
+.btn:focus {
+  color: var(--clr-primary-400);
+  background: var(--clr-neutral-100);
+  outline: 1px solid var(--clr-primary-400);
+  transition: all 400ms ease-in-out;
+}
+
 .btn--light {
   background: var(--clr-neutral-100);
   color: var(--clr-neutral-400);
 }
 
+.btn--light:hover,
+.btn--light:focus {
+  color: var(--clr-neutral-100);
+  background: var(--clr-neutral-400);
+  outline: 1px solid var(--clr-neutral-100);
+  transition: all 400ms ease-in-out;
+}
+
 .btn--dark {
   background: var(--clr-neutral-400);
   color: var(--clr-neutral-100);
+}
+
+.btn--dark:hover,
+.btn--dark:focus {
+  color: var(--clr-neutral-400);
+  background: var(--clr-neutral-100);
+  outline: 1px solid var(--clr-neutral-400);
+  transition: all 400ms ease-in-out;
+}
+
+/* Plan Styles */
+
+.plans {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
 }
