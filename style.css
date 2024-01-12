@@ -100,8 +100,8 @@ section {
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 0.54em 0.75em;
-  border-radius: 0.25em;
+  padding: 0.54em 1em;
+  border-radius: 1em;
   text-transform: uppercase;
   font-weight: 700;
   background: var(--bg, var(--clr-primary-400));
@@ -148,4 +148,35 @@ section {
   display: flex;
   justify-content: center;
   margin: 2em 0;
+}
+
+.plan {
+  width: 16.5rem;
+  padding: 2em;
+  margin: 0 0.5em;
+  border-radius: 1em;
+}
+
+.plan--title {
+  margin: 0 0 1em;
+  text-align: uppercase;
+}
+
+.plan--price {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  color: var(--pop);
+}
+
+.plan--price span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.plan--description {
+  margin: 2em 0;
+  line-height: 1.5;
 }
