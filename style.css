@@ -180,3 +180,55 @@ section {
   margin: 2em 0;
   line-height: 1.5;
 }
+
+/* Team Styles */
+
+.team {
+  background: var(--clr-neutral-300);
+}
+
+.team--members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team--member {
+  display: flex;
+  align-items: center;
+  flex: 1 1 45%;
+  padding: 0.5em.2em 0.5em 0.5em;
+  margin: 1em;
+  border-radius: 1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.team--member img {
+  width: 10rem;
+  margin-right: 1em;
+  border-radius: 0.5em;
+}
+
+.team--member .member--name {
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  color: var(--pop);
+}
+
+.team--member .member--position {
+  font-weight: 700;
+  margin-top: 0;
+  opacity: 0.7;
+}
+
+.team-member--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.team-member--mirrored img {
+  order: 2;
+  margin-left: 1em;
+  margin-right: 0;
+}
